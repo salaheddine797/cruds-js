@@ -6,8 +6,6 @@ const ratingButton = document.getElementById('RateAgain')
 const numberRated = document.getElementById('rated');
 
 
-
-
 submit.addEventListener('click', () => {
     thanksContainer.classList.remove('hidden');
     ratingContainer.style.display = "none";
@@ -18,13 +16,9 @@ ratingButton.addEventListener('click', () => {
     ratingContainer.style.display = "block";
 });
 
-
-
 rates.forEach(rate => {
     rate.addEventListener('click',()=>{
         numberRated.innerHTML = rate.innerHTML;
     })
 });
-
-
 

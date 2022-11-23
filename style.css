@@ -160,6 +160,6 @@ span:hover{
     background-color: hsl(216, 12%, 54%);
 }
 
-.btn:focus{
+span:focus{
     background-color: hsl(25, 97%, 53%);
 }
